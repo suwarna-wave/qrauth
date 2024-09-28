@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-dreplz&u6s_4ss!u4!%6b1h+et(_g!r4^=#daxl^7&my+-b4a2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://qrauth.onrender.com"]
+ALLOWED_HOSTS = ["qrauth.onrender.com"]
 
 
 # Application definition
