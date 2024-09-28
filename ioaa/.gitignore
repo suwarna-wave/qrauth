@@ -1,0 +1,16 @@
+# Python files
+*.pyc
+__pycache__/
+
+# Virtual environments
+venv/
+
+# Database files
+*.sqlite3
+
+# Django static and media files
+staticfiles/
+media/
+
+# Ignore IDE settings
+.vscode/
