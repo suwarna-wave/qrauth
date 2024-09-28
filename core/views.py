@@ -49,13 +49,15 @@ def register_qr(request):
             name = data.get('name')
             country = data.get('country')
             role = data.get('role')
+            event_day = data.get('event_day')
+            event_name = data.get('event_name')
             
             # Check if the record already exists
-            if ScannedQR.objects.filter(name=name, country=country, role=role).exists():
+            if ScannedQR.objects.filter(name=name, country=country, role=role, event_day=event_day, event_name=event_name).exists():
                 return JsonResponse({'error': 'QR code already registered'}, status=400)
             
             # Create the record if it doesn't exist
-            ScannedQR.objects.create(name=name, country=country, role=role)
+            ScannedQR.objects.create(name=name, country=country, role=role, event_day=event_day, event_name=event_name)
             return JsonResponse({'success': 'QR code registered successfully'})
         except json.JSONDecodeError:
             return JsonResponse({'error': 'Invalid JSON'}, status=400)
