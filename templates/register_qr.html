@@ -71,13 +71,13 @@ const eventDaySelect = document.getElementById('event_day');
 const eventSelect = document.getElementById('event');
 let html5QrcodeScanner;
 const events = {
-'Day 1': ['Event 1.1', 'Event 1.2'],
-'Day 2': ['Event 2.1', 'Event 2.2'],
-'Day 3': ['Event 3.1', 'Event 3.2'],
-'Day 4': ['Event 4.1', 'Event 4.2'],
-'Day 5': ['Event 5.1', 'Event 5.2'],
-'Day 6': ['Event 6.1', 'Event 6.2'],
-'Day 7': ['Event 7.1', 'Event 7.2'],
+'Day 1': ['Arrivals'],
+'Day 2': ['Lunch : Hotel', 'To Opening Ceremony', 'Back to Hotel', 'Dinner'],
+'Day 3': ['Group Competition', 'Networking', 'Dinner'],
+'Day 4': ['Transfer to Exam Center', 'Dinner'],
+'Day 5': ['Practical Exams', 'Cultural Night', 'Back to Hotel'],
+'Day 6': ['Exercusion', 'Back To Hotel'],
+'Day 7': ['To Closing Ceremony', 'Departure'],
 };
 eventDaySelect.addEventListener('change', function () {
 const selectedDay = eventDaySelect.value;
