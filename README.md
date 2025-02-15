@@ -83,7 +83,7 @@ This project is licensed under the MIT License. Feel free to use and contribute!
 ---
 
 ## 🌐 Connect
-[GitHub](https://github.com/suwarna-wave) | [LinkedIn](https://www.linkedin.com/in/YOUR_LINKEDIN)
+[GitHub](https://github.com/suwarna-wave) | [LinkedIn](https://www.linkedin.com/in/suwarnapyakurel)
 
 ---
 
